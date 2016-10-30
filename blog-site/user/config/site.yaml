@@ -1,0 +1,14 @@
+title: Seedtag
+author:
+  name: Seedtag Engineering
+  email: 'dev@seedtag.com'
+blog:
+  route: ''
+metadata:
+    description: 'In this blog we want to share information regarding the technologies that we use at Seedtag'
+taxonomies: [category,tag,month]
+redirects:
+    /changelog: /blog/the-urban-jungle
+routes:
+    /something/else: /blog/focus-and-blur
+    /another/one/(.*): /blog/$1
